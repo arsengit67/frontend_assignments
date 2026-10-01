@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email: </label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="password">Password: </label><br>
+        <input type="password" id="password" name="password" required><br>
+        <label for="country">Country: </label>
+        <select id="country" name="country">
+            <option value="Kyrgyzstan">Kyrgyzstan</option>
+            <option value="Kazakhstan">Kazakhstan</option>
+            <option value="Uzbekistan">Uzbekistan</option>
+        </select>
+        <br>
+        <label for="agreement">I agree to terms and conditions: </label><br>
+        <input type="checkbox" id="agreement" name="agreement" required><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
